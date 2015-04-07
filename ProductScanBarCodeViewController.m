@@ -148,7 +148,7 @@
     [self presentViewController:alertController animated:YES completion:nil];
 }
 
-
+//Start running
 - (void)__startRunning {
     if (_session.isRunning) {
         return;
@@ -158,7 +158,7 @@
     });
 }
 
-
+//Stop running
 - (void)__stopRunning {
     if (!_session.isRunning) {
         return;
